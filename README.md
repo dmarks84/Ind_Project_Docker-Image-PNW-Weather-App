@@ -17,4 +17,4 @@ docker build --tag weatherapp .
 docker run -it --name weatherapp_cont -p 9092:8050 weatherapp:latest
 
 ## Skills (Developed & Applied)
-Programming, Python, Docker, Dockerfile, Images, Devops, Folium, Dash, Plotly, Requests, API, GeoPandas, JSON
+Programming, Python, Docker, Dockerfile, Images, Devops, Folium, Dash, Plotly, Requests, API, GeoPandas, JSON, web applications, websites
