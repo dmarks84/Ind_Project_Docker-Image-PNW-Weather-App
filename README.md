@@ -1,5 +1,8 @@
 # Docker Image - Realtime PNW Weather Alert Website
 
+## Screenshot
+![WeatherApp](https://github.com/dmarks84/Ind_Project_Docker-Image-PNW-Weather-App/blob/main/WeatherApp_Screenshot.png?raw=true)
+
 ## Summary
 I created a Docker Image that stands up a website which provides realtime weather alerts for the Pacific Northwest States (Oregon, Washington, Idaho, and Alaska).  The website was built in Python using Dash and API calls through the API services offered by the National Weather Service, a part of the National Oceanic and Atmospheric Administration (NOAA).  The data is cleaned and condensed, and a Folium map is built into an HTML IFrame image with markers color-coded by the alert severity.  Shapely polygons are illustrated and also color coded indicated the geographic range of the alert.  Red indicates Extreme alerts, orange Severe, and blue Moderate.  A dropdown menu allows the user to select their state of interest, and the header updates to know the date and time the information was called via the API using Requests.
 
