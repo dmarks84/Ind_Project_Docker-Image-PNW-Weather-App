@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS alerts 
+        (
+        id text PRIMARY KEY,
+        zones text NOT NULL,
+        sent text NOT NULL,
+        onset text NOT NULL,
+        ends text NOT NULL,
+        status text NOT NULL,
+        msg_type text NOT NULL,
+        severity text NOT NULL,
+        certainty text NOT NULL,
+        urgency text NOT NULL,
+        type text NOT NULL,
+        headline text NOT NULL,
+        description text NOT NULL,
+        recorded_date text NOT NULL,
+        recorded_time text NOT NULL
+        );
