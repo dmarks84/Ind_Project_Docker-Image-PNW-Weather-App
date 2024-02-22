@@ -12,11 +12,15 @@ A future iteration of this project will likely involve using a separate containe
 
 ## Suggested Commands
 **For building the image**
+
 *Naming the Image weatherapp*
+
 docker build --tag weatherapp .
 
 **For starting a container on local port localhost:9092:**
+
 *Naming the container weatherapp_cont*
+
 docker run -it --name weatherapp_cont -p 9092:8050 weatherapp:latest
 
 ## Skills (Developed & Applied)
