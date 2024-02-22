@@ -11,16 +11,12 @@ The Docker Image is not currently shared via the Docker Hub.  However, a Dockerf
 A future iteration of this project will likely involve using a separate container for Apache Kafka, and using a Producer to publish the data into Kafka and a Consumer to digest it and save it to a database (or perhaps Kafka Connect can be utilized).
 
 ## Suggested Commands
-**For building the image**
-
-*Naming the Image weatherapp*
-
+**For building the image**<br>
+*Naming the Image weatherapp*<br>
 docker build --tag weatherapp .
 
-**For starting a container on local port localhost:9092:**
-
-*Naming the container weatherapp_cont*
-
+**For starting a container on local port localhost:9092:**<br>
+*Naming the container weatherapp_cont*<br>
 docker run -it --name weatherapp_cont -p 9092:8050 weatherapp:latest
 
 ## Skills (Developed & Applied)
